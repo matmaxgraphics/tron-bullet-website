@@ -279,6 +279,10 @@ nav .navbar__items {
   display: inline-flex;
   transform: rotate(11.805deg);
 }
+.hero-section h1 span.different {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
 .hero-section h4 {
   margin-bottom: 48px;
   font-weight: normal;
@@ -418,7 +422,6 @@ nav .navbar__items {
   gap: 16px;
   max-width: 500px;
   margin-bottom: 32px;
-  border-bottom: 1px solid #575757;
   padding-bottom: 24px;
 }
 .features-section .features-item:last-child {
@@ -428,8 +431,9 @@ nav .navbar__items {
   margin-bottom: 8px;
 }
 .features-section .features-item img {
-  width: 50px;
-  height: auto;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
 }
 .features-section .img-container {
   display: flex;
