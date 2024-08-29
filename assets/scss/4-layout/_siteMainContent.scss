@@ -43,6 +43,7 @@
 
 @media (max-width: 800px) {
   .hero-section {
+    margin-bottom: 48px;
     .hero--wrapper {
       flex-direction: column;
       height: auto;
@@ -132,6 +133,16 @@
         width: 100%;
         border-radius: 16px;
         margin-bottom: 24px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .how-it-works-section {
+    .how-it-works--wrapper {
+      .card--item {
+        width: 100%;
       }
     }
   }
@@ -242,11 +253,11 @@
   }
 }
 
-@media(max-width: 700px){
+@media (max-width: 700px) {
   .perks-section {
-    border: 1px solid red;
     .inner--container {
       gap: 24px;
+      margin: 0;
     }
     .flex-align {
       display: flex;
@@ -263,7 +274,6 @@
     }
   }
 }
-
 
 .roadmap-section {
   h2 {
@@ -394,7 +404,7 @@
 
 .token-address {
   width: 100%;
-  .flex-align{
+  .flex-align {
     display: flex;
     gap: 16px;
     flex-flow: row wrap;
@@ -404,8 +414,8 @@
     border: 1.5px solid rgba(255, 255, 255, 0.12);
     padding: 8px;
     justify-content: center;
-    h5{
-      color: #FF2A3A;
+    h5 {
+      color: #ff2a3a;
     }
   }
   .bullet-address {

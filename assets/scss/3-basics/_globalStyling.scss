@@ -76,6 +76,11 @@ img {
 .section--bottom__margin {
   margin-bottom: 96px;
 }
+@media(max-width: 800px){
+  .section--bottom__margin {
+    margin-bottom: 64px;
+  }
+}
 .section_max-width {
   max-width: 1400px;
   margin: auto;

@@ -78,6 +78,11 @@ img {
   margin-bottom: 96px;
 }
 
+@media (max-width: 800px) {
+  .section--bottom__margin {
+    margin-bottom: 64px;
+  }
+}
 .section_max-width {
   max-width: 1400px;
   margin: auto;
@@ -281,6 +286,9 @@ nav .navbar__items {
 }
 
 @media (max-width: 800px) {
+  .hero-section {
+    margin-bottom: 48px;
+  }
   .hero-section .hero--wrapper {
     flex-direction: column;
     height: auto;
@@ -368,6 +376,11 @@ nav .navbar__items {
   margin-bottom: 24px;
 }
 
+@media (max-width: 800px) {
+  .how-it-works-section .how-it-works--wrapper .card--item {
+    width: 100%;
+  }
+}
 .features-section header {
   margin-bottom: 48px;
   max-width: 600px;
@@ -464,11 +477,9 @@ nav .navbar__items {
 }
 
 @media (max-width: 700px) {
-  .perks-section {
-    border: 1px solid red;
-  }
   .perks-section .inner--container {
     gap: 24px;
+    margin: 0;
   }
   .perks-section .flex-align {
     display: flex;
@@ -612,7 +623,7 @@ nav .navbar__items {
   justify-content: center;
 }
 .token-address .flex-align h5 {
-  color: #FF2A3A;
+  color: #ff2a3a;
 }
 .token-address .bullet-address {
   padding: 8px;
