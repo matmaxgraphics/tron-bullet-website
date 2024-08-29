@@ -1,0 +1,20 @@
+.btn {
+  font-family: $bodyFont;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid $primaryColor;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: $primaryColor;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.sec-btn {
+  color: $bodyTextColor;
+  background: transparent;
+  border: 1.5px solid $secondaryColor;
+}

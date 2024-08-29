@@ -1,0 +1,33 @@
+@mixin textGradientColor {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 132, 255, 1) 0%,
+    rgba(255, 138, 199, 1) 41%,
+    rgba(254, 186, 117, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@mixin gradientTextPink {
+  background: linear-gradient(
+    -45deg,
+    rgba(170, 204, 225, 1) 0%,
+    rgba(187, 42, 255, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@mixin gradientTextRed {
+  background: linear-gradient(
+    -45deg,
+    rgb(243, 127, 238) 0%,
+    rgb(255, 42, 58) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
