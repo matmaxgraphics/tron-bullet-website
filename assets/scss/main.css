@@ -349,9 +349,11 @@ nav .navbar__items {
 }
 .how-it-works-section .how-it-works--wrapper {
   display: flex;
+  flex-flow: row wrap;
   gap: 24px;
 }
 .how-it-works-section .how-it-works--wrapper .card--item {
+  width: calc(33.3% - 24px);
   border: 1px solid #575757;
   border-radius: 16px;
   padding: 24px;
@@ -461,6 +463,26 @@ nav .navbar__items {
   color: transparent;
 }
 
+@media (max-width: 700px) {
+  .perks-section {
+    border: 1px solid red;
+  }
+  .perks-section .inner--container {
+    gap: 24px;
+  }
+  .perks-section .flex-align {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-between;
+  }
+  .perks-section article {
+    width: 100%;
+    padding: 16px;
+    border-radius: 24px;
+    gap: 32px;
+  }
+}
 .roadmap-section h2 {
   text-align: center;
   margin-bottom: 48px;
