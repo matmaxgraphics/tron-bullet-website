@@ -264,6 +264,10 @@ nav .navbar__items {
     transition: 0.3s;
   }
 }
+.hero-section {
+  background: url("../images/grid.png") no-repeat left center;
+  position: relative;
+}
 .hero-section h1 {
   line-height: 1.1;
   margin-bottom: 16px;
@@ -281,6 +285,8 @@ nav .navbar__items {
   font-weight: normal;
 }
 .hero-section .hero--wrapper {
+  position: relative;
+  z-index: 2;
   display: flex;
   height: 70vh;
   align-items: center;
