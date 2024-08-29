@@ -49,7 +49,7 @@
 
         <ul class="nav-links navbar__items">
           <a href="#how-it-works-section"><li>How it works</li></a>
-          <a href="#benefits-section"><li>Features</li></a>
+          <a href="#features-section"><li>Features</li></a>
           <a href="#tokenomics-section"><li>Tokenomics</li></a>
           <a href="#roadmap-section"><li>Roadmap</li></a>
           <a href="https://docs.volumex.bot/volumex-documentation"
@@ -105,7 +105,7 @@
       </div>
     </section>
 
-    <section class="how-it-works-section section--bottom__margin">
+    <section class="how-it-works-section section--bottom__margin" id="how-it-works-section">
       <div class="section_max-width">
         <header>
           <h2>How To Use TronBullet</h2>
@@ -141,7 +141,7 @@
       </div>
     </section>
 
-    <section class="features-section section--bottom__margin">
+    <section class="features-section section--bottom__margin" id="features-section">
       <div class="section_max-width">
         <header>
           <h2>Features</h2>
@@ -244,7 +244,7 @@
       </div>
     </section>
 
-    <section class="roadmap-section">
+    <section class="roadmap-section" id="roadmap-section">
       <div class="section_max-width">
         <h2>Roadmap</h2>
         <div class="roadmap--wrapper" id="roadmap-section">
@@ -340,6 +340,60 @@
         </div>
       </div>
     </section>
+
+
+    <section class="tokenomics-section" id="tokenomics-section">
+      <h2>Tokenomics</h2>
+
+      <article class="token-description">
+        <div class="text-group">
+          <p>Total supply</p>
+          <span>100,000,000</span>
+        </div>
+        <div class="text-group">
+          <p>Token Symbol</p>
+          <span>TRB</span>
+        </div>
+        <div class="text-group">
+          <p>Tax</p>
+          <span>0.00</span>
+        </div>
+      </article>
+
+      <div class="tokenomics--wrapper" id="tokenomics-section">
+        <article class="token-chart">
+          <canvas id="myChart" style="width: 120%; height: 120%"></canvas>
+        </article>
+
+        <article class="chart-data">
+          <div class="data--item">
+            <p><span class="color-2">50%</span>Presale</p>
+          </div>
+          
+          <div class="data--item">
+            <p><span class="color-3">25%</span>Liquidity Pool</p>
+          </div>
+          
+          <div class="data--item">
+            <p><span class="color-4">10%</span>Advisors & Partners</p>
+          </div>
+          
+          <div class="data--item">
+            <p><span class="color-1">5%</span>Community Activities</p>
+          </div>
+
+          <div class="data--item">
+            <p><span class="color-5">5%</span>CEX Listing (Locked)</p>
+          </div>
+
+          <div class="data--item">
+            <p><span class="color-6">5%</span>Team (Locked)</p>
+          </div>
+
+        </article>
+      </div>
+    </section>
+
 
     <section class="faqs-section" id="faqs-section">
       <h2>Frequently Asked Questions</h2>
@@ -541,11 +595,12 @@
         "Presale",
         "Liquidity Pool",
         "Advisors & Partners",
+        "Community Activities",
         "CEX Listing",
         "Team",
       ];
-      const yValues = [70, 14, 8, 4, 4];
-      const barColors = ["#3F87FE", "#FF9462", "#FFC250", "#ED5959", "#5FB3A0"];
+      const yValues = [50, 25, 10, 5, 5, 5];
+      const barColors = ["#9747ff", "#026dbb", "#ffaf02", "#fe6500", "#87f4be", "#ffffff"];
 
       new Chart("myChart", {
         type: "doughnut",
