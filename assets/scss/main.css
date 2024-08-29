@@ -227,7 +227,7 @@ nav .navbar__items {
     border-bottom: 1px solid #242424;
   }
   nav .nav-wrapper {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #1f1f1f;
     padding: 16px 24px;
   }
   nav .nav-wrapper img {
