@@ -266,7 +266,6 @@ nav .navbar__items {
 }
 .hero-section {
   background: url("../images/grid.png") no-repeat left center;
-  position: relative;
 }
 .hero-section h1 {
   line-height: 1.1;
@@ -285,8 +284,6 @@ nav .navbar__items {
   font-weight: normal;
 }
 .hero-section .hero--wrapper {
-  position: relative;
-  z-index: 2;
   display: flex;
   height: 70vh;
   align-items: center;
@@ -305,7 +302,7 @@ nav .navbar__items {
   margin-left: 20px;
 }
 .hero-section .img-container img {
-  max-width: 90%;
+  width: 100%;
   height: auto;
   border-radius: 16px;
 }

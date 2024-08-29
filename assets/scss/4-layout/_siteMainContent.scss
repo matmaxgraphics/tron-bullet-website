@@ -1,6 +1,5 @@
 .hero-section {
   background: url('../images/grid.png') no-repeat left center;
-  position: relative;
   h1 {
     line-height: 1.1;
     margin-bottom: 16px;
@@ -18,8 +17,6 @@
     font-weight: normal;
   }
   .hero--wrapper {
-    position: relative;
-    z-index: 2;
     display: flex;
     height: 70vh;
     align-items: center;
@@ -53,7 +50,7 @@
     margin-left: 20px;
   }
   .img-container img {
-    max-width: 90%;
+    width: 100%;
     height: auto;
     border-radius: 16px;
   }
