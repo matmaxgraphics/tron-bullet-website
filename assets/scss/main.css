@@ -143,6 +143,21 @@ footer .footer--wrapper {
   padding-bottom: 24px;
   gap: 48px;
 }
+footer .external--socials {
+  font-size: 24px;
+  display: flex;
+  gap: 16px;
+}
+footer .external--socials i {
+  background-color: #888;
+  padding: 8px;
+  border-radius: 8px;
+}
+footer .external--socials i:hover {
+  background-color: #FF2A3A;
+  color: #fff;
+  transition: all 0.3s;
+}
 footer .bullet--description img {
   width: 250px;
   height: auto;
